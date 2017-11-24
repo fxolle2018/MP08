@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Passion+One|Roboto" rel="stylesheet">
+    <title>fload cajas</title>
+  </head>
+  <style>
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
+    ul{
+      background-color: gold;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    li{
+      background-color: yellow;
+      margin: 1px;
+      display: block;
+      float: left;
+      height: 30px;
+      padding: 10px;
+      font-family: helvetica;
+      font-variant: small-caps;
+    }
+    li:hover{
+      background-color: white;
+    }
+    h1{
+      font-size:75pt;
+    }
+    #contenidor{
+      width: 800px;
+      margin: 0 auto;
+    }
+    #cap{
+      background-color: red;
+      width: 100%;
+      height: 150px;
+      background-image: url(cafecoffy2.jpg);
+      color: white;
+      text-align: center;
+      line-height: 150px;
+      font-family: 'Indie Flower', cursive;
+      font-weight: 400;
+      letter-spacing: 5px;
+      text-shadow: 0 0 10px black;
+    }
+    #menu{
+      background-color: green;
+      width: 38.75%;
+      height: 790px;
+      float: left;
+      border: dotted 5px black;
+    }
+    #principal{
+      background-color: purple;
+      width: 60%;
+      height: 800px;
+      float: left;
+    }
+    /*
+    #principal img {
+      width: 100%;
+    }
+    */
+    #principal a:link{
+      display: none;
+      width: 100%;
+      background-color: black;
+      }
+
+    #principal a:hover{
+      opacity: 0.5;
+    }
+    #principal a:active{
+      opacity: 1;
+      width: 50%;
+    }
+    #peu{
+      background-color: yellow;
+      width: 100%;
+      height: 100px;
+      clear: both;
+    }
+    #principal .captitular{
+      width: 50px;
+      height: auto;
+      display: block;
+      float: left;
+      padding: 10px 0 0 10px;
+
+    }
+    span {
+      display: none;
+    }
+
+  </style>
+  <body>
+    <div id="contenidor">
+            <div id="cap" >
+              <h1>MyCoffeeXop</h1>
+            </div>
+            <ul>
+              <li>Inici</li>
+              <li>Productes</li>
+              <li>Serveis</li>
+              <li>Botiga</li>
+              <li>Contacte</li>
+            </ul>
+            <div id="menu" >
+              menu
+            </div>
+            <div id="principal">
+              <a href="">
+                <img src="download.jpg">
+              </a>
+              <img class="captitular" src="captitular.png">
+              <p><span>L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div id="peu" >
+              peu
+            </div>
+    </div>
+  </body>
+</html>
