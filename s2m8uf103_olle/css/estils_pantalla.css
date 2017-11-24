@@ -1,0 +1,212 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #e6e8eb;
+}
+
+#barra{
+  height: 43px;
+  background-color: #334f8b;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000000000000000000000000000000;
+}
+
+#contenidor{
+  width: 852px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+#portada{
+  height: 286px;
+  background-image: url(../img/portada2.jpg);
+  margin-top: 43px;
+}
+#nom{
+  color: white;
+  width: 320px;
+  position: relative;
+  text-shadow: 0 0 5px black;
+  top: 240px;
+  left: 220px;
+  font-family: avenir;
+  font-family: Lucida grande, tahoma, san Francisco, roboto, segoe Ui;
+}
+
+#perfil{
+  background-color: pink;
+  border: solid 2px white;
+  border-radius:4px;
+  position: relative;
+  left: 8px;
+  top: 100px;
+  box-shadow: 0 0 5px black;
+}
+#menu{
+  height: 44px;
+  background-color: #e6e8eb;
+  padding: 0px;
+  margin: 0 0 0 192px;
+  width: 431px;
+}
+#menu li{
+  float: left;
+  padding: 0 18px;
+  display: block;
+  font-weight: bold;
+  color: #334f8d;
+  background-color:#FFF;
+  margin-right: 1px;
+  margin: 0 0 0 2px;
+  height: 44px;
+  line-height: 44px;
+
+  }
+  #menu li:hover{
+    color: #000;
+    background-image: url(../img/select.gif);
+    background-repeat: no-repeat;
+    background-position:50% 37px;
+    }
+  #contingut{
+    border-top: solid 1px #e6e8eb;
+  }
+  .esquerra {
+    width: 323px;
+    border: solid 1px #ccc;
+    border-radius: 3px;
+    margin: 10px 0;
+  }
+  .esquerra h4{
+    background-color: yelloW;
+    height: 14px;
+    padding: 5px;
+    font-weight: normal;
+    font-size: 18px;
+    text-indent: 36px;
+    background-image: url(../img/lateral.png);
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+  #fotos h4 {
+    background-position: 0 -24px;
+  }
+  #amics h4 {
+    background-position: 0 -48px;
+  }
+  #presentacio li{
+    height: 30px;
+
+  }
+  #presentacio .estudis{
+    list-style-image: url(../img/icones_estudis.png);
+  }
+  #presentacio .domicili{
+    list-style-image: url(../img/domicili.png);
+  }
+  #presentacio .feina{
+    list-style-image: url(../img/icones_feina.png);
+  }
+  #presentacio .relacio{
+    list-style-image: url(../img/icones_sentimental.png);
+  }
+  #presentacio .pagina{
+    list-style-image: url(../img/icones_esdeveniments.png);
+  }
+
+  #fotos ul li {
+    background-color: yellowgreen;
+    display: block;
+    width: 99px;
+    height: 99px;
+    margin: 4px;
+    float: left;
+    background-size: 99px 99px;
+  }
+  #fotos ul{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  #amics ul li {
+    background-color: yellowgreen;
+    display: block;
+    width: 99px;
+    height: 99px;
+    margin: 4px;
+    float: left;
+    background-size: 99px 99px;
+    background-image: url(../img/perfil.jpg);
+    color: white;
+    line-height: 178px;
+    text-shadow: 0 0 2px #black;
+    text-indent: 5px;
+  }
+  #amics ul{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  .esquerra ul{
+    background-color: #baba;
+    margin-top: 20px;
+  }
+  #f1 {
+    background-image: url(../img/f1.jpg);
+  }
+  #f2 {
+    background-image: url(../img/f2.png);
+  }
+  #f3 {
+    background-image: url(../img/f3.jpg);
+  }
+  #f4 {
+    background-image: url(../img/f4.png);
+  }
+  #f5 {
+    background-image: url(../img/f5.jpg);
+  }
+  #f6 {
+    background-image: url(../img/f6.png);
+  }
+  #f7 {
+    background-image: url(../img/f7.jpg);
+  }
+  #f8 {
+    background-image: url(../img/f8.jpg);
+  }
+  #f9 {
+    background-image: url(../img/f9.jpg);
+  }
+
+  #ao1{
+    background-image: url(https://kbaquerizo.github.io/MP08/s2m8uf103_baquerizo/index.html);
+  }
+  #ao1{
+    background-image: url(https://jsanchez2018.github.io/MP08/s2m8uf103_sanchez/index.html);
+  }
+  #ao1{
+    background-image: url(https://calvarez.github.io/MP08/s2m8uf103alvarez/index.html);
+  }
+  #ao1{
+    background-image: url(https://amanchon2018.github.io/MP08/s2m8uf103_manchon/index.html);
+  }
+  #ao1{
+    background-image: url(https://mpanchame2018.github.io/MP08/s2m8uf103_panchame/index.html);
+  }
+  #ao1{
+    background-image: url(https://dlopez-goicochea2018.github.io/MP08/s2m8uf103_lopez-goicochea/index.html);
+  }
+  #ao1{
+    background-image: url(https://rgarcia2018.github.io/MP08/s2m8uf103_gacia/index.html);
+  }
+  #ao1{
+    background-image: url(https://jsagrera2018.github.io/MP08/s2m8uf103_sagrera/index.html);
+  }
+  #ao1{
+    background-image: url(https://zruiz2018.github.io/MP08/s2m8uf103_ruiz/index.html);
+  }
